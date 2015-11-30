@@ -1,0 +1,18 @@
+---
+- hosts: localhost
+  user: rsherman
+  connection: local
+  tasks:
+    - name: Create Documents dir structure
+      file: path=/Users/rsherman/Documents/{{ item }} state=directory owner=rsherman group=staff
+      with_items:
+        - AWS
+        - Education
+        - django_projects
+        - open_source_projects
+        - python_objectives
+        - scripts
+        - vagrant
+        - venvs
+        - vpn
+        - work_related
