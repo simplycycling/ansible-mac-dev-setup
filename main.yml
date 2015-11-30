@@ -11,8 +11,21 @@
         - django_projects
         - open_source_projects
         - python_objectives
-        - scripts
+        - scripts/python
         - vagrant
         - venvs
         - vpn
         - work_related
+    - name: Pull bash git repo
+      git: repo=https://github.com/simplycycling/bash.git
+           dest=/Users/rsherman/Documents/scripts/bash
+    - name: Pull TDD repo
+      git: repo=https://github.com/simplycycling/test_driven_development.git
+           dest=/Users/rsherman/Documents/django_projects/test_driven_development
+    - name: Pull Ansible HA deployer example
+      git: repo=https://github.com/simplycycling/Ansible-HA-deployer-example.git
+           dest=/Users/rsherman/Documents/open_source_projects/Ansible-HA-deployer-example
+    - name: Pull Ansible Mac dev setup repo (how meta!)
+      git: repo=https://github.com/simplycycling/ansible-mac-dev-setup.git
+           dest=/Users/rsherman/Documents/open_source_projects/ansible-mac-dev-setup
+
