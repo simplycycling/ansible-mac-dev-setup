@@ -14,4 +14,14 @@ manually.
 - Ansible
 - Git
 
-There will certainly be more requirements, as this progresses. 
+There will certainly be more requirements, as this progresses.
+
+### Run
+Pretty simple:
+
+- Install Ansible, via pip
+- Install git
+- Clone this repo
+- cd into repo, run:
+    ansible-playbook -i inventory main.yml
+
