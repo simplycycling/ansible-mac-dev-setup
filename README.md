@@ -44,6 +44,8 @@ As mentioned before, I used two of Jeff Geerling's roles:
 
 They're both available on Ansible Galaxy. They're both good - homebrew gets a ton done, and dotfiles is brilliant.
 To help set that stuff up, I borrowed a bit from his Ansible role for setting up his Mac:
+
 https://github.com/geerlingguy/mac-dev-playbook
+
 There's a lot of stuff I didn't use from his playbook, but there are definitely a lot of great ideas.
 
