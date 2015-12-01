@@ -3,46 +3,36 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo: https://github.com/simplycycling/dotfiles.git
+dotfiles_repo_local_destination: ~/Google\ Drive/dotfiles-repo
 dotfiles_files:
+  - .irssi
+  - .vim
+  - .aliases
   - .bash_profile
+  - .bash_prompt
+  - .exports
   - .gitconfig
-  - .gitignore
+  - .helpers
   - .inputrc
-  - .osx
   - .vimrc
 
 homebrew_installed_packages:
-  - ansible
-  - autoconf
   - bash-completion
   - boot2docker
   - docker
-  - gettext
   - git
   - go
-  - gpg
-  - hub
   - iperf
-  - libdvdcss
-  - libevent
   - packer
-  - python
+  - python3
   - sqlite
   - mysql
   - npm
-  - php56
-  - php56-xdebug
   - ssh-copy-id
   - cowsay
-  - ios-sim
   - readline
-  - subversion
   - kdiff3
-  - openssl
-  - pv
-  - drush
   - wget
   - wrk
   - brew-cask
