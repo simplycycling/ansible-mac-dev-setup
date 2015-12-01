@@ -36,7 +36,7 @@ There will certainly be more requirements, as this progresses.
 - Clone this repo
 - cd into repo, run:
 
-    ansible-playbook -i inventory main.yml -K (you'll prompted for your sudo password)
+`ansible-playbook -i inventory main.yml -K` (you'll prompted for your sudo password)
     
 ### Credit where credit is due
 As mentioned before, I used two of Jeff Geerling's roles:
