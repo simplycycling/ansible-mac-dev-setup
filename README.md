@@ -35,6 +35,7 @@ There will certainly be more requirements, as this progresses.
 - Install git
 - Clone this repo
 - cd into repo, run:
+
     ansible-playbook -i inventory main.yml -K (you'll need to enter your sudo password)
     
 ### Credit where credit is due
