@@ -4,6 +4,8 @@ Basic setup for my Mac.
 ## What it does
 Not much. Creates a directory structure inside of ~/Documents.
 
+Ok, now it does some more. Clones some git repos. Also, I'm using Jeff Geerling's homebrew role. Is it any good? It looks pretty good. Who knows? I'll update as I go along.
+
 ## What it will do
 More. At very least, I'll set it up to download some of my git repos.
 
