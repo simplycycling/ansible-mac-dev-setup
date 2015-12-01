@@ -35,7 +35,7 @@ homebrew_installed_packages:
   - kdiff3
   - wget
   - wrk
-  - brew-cask
+  - caskroom/cask/brew-cask
 
 homebrew_taps:
   - caskroom/cask
@@ -46,29 +46,12 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
   - google-chrome
-  - dropbox
-  - fing
   - firefox
   - handbrake
-  - karabiner
-  - limechat
-  - licecap
-  - macvim
   - menumeters
-  - nvalt
-  - sequel-pro
   - skype
   - skitch
-  - seil
-  - sublime-text # Note - Sublime Text 2 only, at this time...
-  - textmate
-  - timemachineeditor
-  - tower
-  - transmit
   - vagrant
-  - vagrant-manager
   - vlc
   - virtualbox
