@@ -6,6 +6,7 @@
     - vars/main.yml
   roles:
     - geerlingguy.homebrew
+    - geerlingguy.dotfiles
   tasks:
     - name: Create Documents dir structure
       file: path=/Users/rsherman/Documents/{{ item }} state=directory owner=rsherman group=staff
