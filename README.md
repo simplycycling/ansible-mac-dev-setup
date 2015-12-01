@@ -28,6 +28,7 @@ There will certainly be more requirements, as this progresses.
 -Pretty simple- A bit more complex, now:
 
 - Install Ansible, via pip
+- Install geerlingguy's homebrew and dotfiles roles from Ansible Galaxy
 - Install homebrew
 - Install Google Drive (that's just me - YMMV)
 - Install xcode cli tools
