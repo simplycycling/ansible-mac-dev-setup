@@ -18,11 +18,14 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
+  - coreutils
+  - findutils
   - bash-completion
   - boot2docker
   - docker
   - git
   - go
+  - grc
   - iperf
   - packer
   - python3
@@ -46,6 +49,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - iterm2-beta
   - google-chrome
   - firefox
   - handbrake
