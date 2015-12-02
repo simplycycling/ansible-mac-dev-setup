@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - caskroom/cask/brew-cask
+  - homebrew/completions/vagrant-completion
 
 homebrew_taps:
   - caskroom/cask
@@ -46,10 +47,11 @@ homebrew_taps:
   - homebrew/dupes
   - homebrew/php
   - homebrew/versions
+  - homebrew/completions
+  
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - iterm2-beta
   - google-chrome
   - firefox
   - handbrake
@@ -59,3 +61,4 @@ homebrew_cask_apps:
   - vagrant
   - vlc
   - virtualbox
+
