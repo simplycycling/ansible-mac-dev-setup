@@ -40,6 +40,7 @@ homebrew_installed_packages:
   - wrk
   - caskroom/cask/brew-cask
   - homebrew/completions/vagrant-completion
+  - pass
 
 homebrew_taps:
   - caskroom/cask
