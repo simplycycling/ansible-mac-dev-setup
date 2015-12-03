@@ -21,6 +21,8 @@ manually.
 ### Requirements
 - Ansible
 - Git
+- geerlingguy.homebrew
+- geerlingguy.dotfiles
 
 There will certainly be more requirements, as this progresses.
 
