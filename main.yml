@@ -34,3 +34,6 @@
       git: repo=https://github.com/simplycycling/ansible-mac-dev-setup.git
            dest=/Users/rsherman/Documents/open_source_projects/ansible-mac-dev-setup
 
+# TODO: Figure out how to set System Preferences via command line, and then
+# Ansiblize them, as well.
+
