@@ -42,6 +42,7 @@ homebrew_installed_packages:
   - caskroom/cask/brew-cask
   - homebrew/completions/vagrant-completion
   - pass
+  - irssi
 
 homebrew_taps:
   - caskroom/cask
