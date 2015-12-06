@@ -7,12 +7,8 @@ Basic setup for my Mac.
 - Installs most of the apps that I use that can be installed via homebrew.
 
 #### TODO:
-Ascertain what remaining apps that need to be installed manually can be installed via brew.
-
-### Update...
-Now it does a lot more. It took a little bit of doing to get the homebrew role going - evidently, there was an Ansible 
-issue...long story short, it's fixed now, so if it won't let you install caskroom/cask/brew-cask 
-(line 38 vars/main.yml), update Ansible. That should take care of it.
+- Ascertain what remaining apps that need to be installed manually can be installed via brew.
+- Add task to fetch the current Solarized package.
 
 ### Requirements
 - Ansible
