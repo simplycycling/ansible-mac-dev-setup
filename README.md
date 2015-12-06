@@ -8,7 +8,6 @@ Basic setup for my Mac.
 
 #### TODO:
 - Ascertain what remaining apps that need to be installed manually can be installed via brew.
-- Add task to fetch the current Solarized package.
 
 ### Requirements
 - Ansible

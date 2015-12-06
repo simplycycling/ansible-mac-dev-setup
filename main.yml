@@ -33,6 +33,8 @@
     - name: Pull Ansible Mac dev setup repo (how meta!)
       git: repo=https://github.com/simplycycling/ansible-mac-dev-setup.git
            dest=/Users/rsherman/Documents/open_source_projects/ansible-mac-dev-setup
+    - name: Get current Solarized package
+      get_url: url=http://ethanschoonover.com/solarized/files/solarized.zip dest=~/Downloads/
 
 # TODO: Figure out how to set System Preferences via command line, and then
 # Ansiblize them, as well.
