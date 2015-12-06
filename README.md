@@ -2,21 +2,17 @@
 Basic setup for my Mac.
 
 ## What it does
-Not much. Creates a directory structure inside of ~/Documents.
+- Creates a directory structure inside of ~/Documents.
+- Restores my dotfiles, along with a couple of dot dirs, .vim, and .irssi.
+- Installs most of the apps that I use that can be installed via homebrew.
 
-Ok, now it does some more. Clones some git repos. Also, I'm using Jeff Geerling's homebrew role. Is it any good? It 
-looks pretty good. Who knows? I'll update as I go along.
+#### TODO:
+Ascertain what remaining apps that need to be installed manually can be installed via brew.
 
 ### Update...
 Now it does a lot more. It took a little bit of doing to get the homebrew role going - evidently, there was an Ansible 
 issue...long story short, it's fixed now, so if it won't let you install caskroom/cask/brew-cask 
 (line 38 vars/main.yml), update Ansible. That should take care of it.
-
-## What it will do
-More. At very least, I'll set it up to download some of my git repos.
-
-Apple is such a pain, though. There's a bunch of stuff I'll still have to do
-manually.
 
 ### Requirements
 - Ansible
@@ -24,10 +20,8 @@ manually.
 - geerlingguy.homebrew
 - geerlingguy.dotfiles
 
-There will certainly be more requirements, as this progresses.
-
 ### Run
--Pretty simple- A bit more complex, now:
+What needs to be done from a clean install, until you can run this playbook:
 
 - Install Ansible, via pip
 - Install geerlingguy's homebrew and dotfiles roles from Ansible Galaxy
@@ -39,7 +33,13 @@ There will certainly be more requirements, as this progresses.
 - cd into repo, run:
 
 `ansible-playbook -i inventory main.yml -K` (you'll prompted for your sudo password)
-    
+
+#### Troubleshooting
+The first time I ran this with geerlingguy's homebrew role, I ran into an Ansible bug, that, long story short, wasn't 
+letting me install caskroom/cask/brew-cask. I wish I had made note of the bug, for posterity's sake, but I didn't. Oh
+well. Bottom line, if you get an error saying you can't install it, upgrade to the latest version of Ansible. It was 
+fixed in late November, and once I upgraded, it worked flawlessly.
+
 ### Credit where credit is due
 As mentioned before, I used two of Jeff Geerling's roles:
 - geerlingguy.homebrew
