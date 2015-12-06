@@ -19,16 +19,21 @@ Basic setup for my Mac.
 ### Run
 What needs to be done from a clean install, until you can run this playbook:
 
+- Install pip
 - Install Ansible, via pip
-- Install geerlingguy's homebrew and dotfiles roles from Ansible Galaxy
+- Install xcode cli tools
 - Install homebrew
 - Install Google Drive (that's just me - YMMV)
-- Install xcode cli tools
 - Install git
+- Create /etc/ansible, chmod rsherman:staff
+- Install geerlingguy's homebrew and dotfiles roles from Ansible Galaxy
 - Clone this repo
 - cd into repo, run:
 
 `ansible-playbook -i inventory main.yml -K` (you'll prompted for your sudo password)
+
+#### TODO
+Ansiblize creating /etc/ansible and installing geerlingguy's roles
 
 #### Troubleshooting
 The first time I ran this with geerlingguy's homebrew role, I ran into an Ansible bug, that, long story short, wasn't 
