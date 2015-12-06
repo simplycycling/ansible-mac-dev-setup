@@ -3,6 +3,7 @@ Basic setup for my Mac.
 
 ## What it does
 - Creates a directory structure inside of ~/Documents.
+- Clones the git repos that I'm currently working on.
 - Restores my dotfiles, along with a couple of dot dirs, .vim, and .irssi.
 - Installs most of the apps that I use that can be installed via homebrew.
 
