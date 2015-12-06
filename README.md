@@ -10,6 +10,7 @@ Basic setup for my Mac.
 
 #### TODO:
 - Ascertain what remaining apps that need to be installed manually can be installed via brew.
+- Figure out how to set System Preferences from the command line, then Ansibilize them, as well.
 
 ### Requirements
 - Ansible
