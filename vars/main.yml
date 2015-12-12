@@ -64,4 +64,5 @@ homebrew_cask_apps:
   - vagrant
   - vlc
   - virtualbox
+  - evernote
 
