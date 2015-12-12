@@ -65,4 +65,5 @@ homebrew_cask_apps:
   - vlc
   - virtualbox
   - evernote
+  - pycharm
 
