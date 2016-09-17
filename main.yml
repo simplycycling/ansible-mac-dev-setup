@@ -36,6 +36,5 @@
     - name: Get current Solarized package
       get_url: url=http://ethanschoonover.com/solarized/files/solarized.zip dest=~/Downloads/
 
-# TODO: Figure out how to set System Preferences via command line, and then
-# Ansiblize them, as well.
+# TODO: Figure out how to set System Preferences via command line, and then Ansiblize them, as well.
 
