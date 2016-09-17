@@ -3,7 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
-dotfiles_repo: https://github.com/simplycycling/dotfiles.git
+dotfiles_repo: git@gitlab.com:rogersherman/dotfiles.git
 dotfiles_repo_local_destination: ~/Google\ Drive/dotfiles-repo
 dotfiles_files:
   - .irssi
