@@ -8,22 +8,11 @@
     - geerlingguy.homebrew
     - geerlingguy.dotfiles
   tasks:
-    - name: Create Documents dir structure
+    - name: Create src dir
       ansible.builtin.file: 
-	path: /Users/rsherman/Documents/{{ item }} 
+	path: /Users/rsherman/src
 	state: directory 
 	owner: rsherman 
 	group: staff
-      loop:
-        - AWS
-        - Education
-        - django_projects
-        - open_source_projects
-        - python_objectives
-        - scripts/python
-        - vagrant
-        - venvs
-        - vpn
-        - work_related
 
 
